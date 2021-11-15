@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar-toggler-icon{
+    
+}
+.navbar .navbar-brand span{
+    color: 	#ff0150;
+}
+.navbar .navbar-brand{
+    color: 	black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.navbar #mymenu .custom-nav .nav-item {
+   color: black;
+   font-weight: 500;
+   margin-right: 10px;
+   /* padding-right: 15px; */
+}
+.back-img{
+    height: 100vh;
+    background-size: cover;
+}
+.back-img .heading{
+    padding-top: 300px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: 60px;
+}
+.back-img .heading span{
+    color: #ff0150;
+}
+.back-img .para{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.back-img .btn{
+    background-color:	#ff0150;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* .................... ABOUT US......................  */
+.abt-text .title-heading span{
+    color: 	#ff0150;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* .................... OUR MENU......................  */
+
+.ourmenu .menu-heading span{
+    font-size: 40px;
+    font-weight: bolder;
+    color: 	#ff0150;
+}
+
+
+
+/* .................... OUR EXPERT......................  */
+
+.kitchen-exp .expert-heading span{
+    font-size: 40px;
+    font-weight: bolder;
+    color: 	#ff0150;
+}
+
+/* .................... TESTIMONIALS......................  */
+.Testimonials .test-heading span{
+    font-size: 40px;
+    font-weight: bolder;
+    color: 	#ff0150;
+}
+.test-backimg{
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 70%; */
+}
+.Testimonials .test-cards img{
+    height: 60px;
+    width: 60px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+.Testimonials .test-cards .test-name{
+    color: #ff0150;
+    font-weight: 700;
+}
+
+
+/* .................... Contact Us......................  */
+.contact-back{
+    background-image: url("../images/bg3.jpg");
+    background-size: cover;
+    height: 50%;
+}
+.contact-heading span{
+    font-size: 40px;
+    font-weight: bolder;
+    color: 	#ff0150;
+}
+.contact-us .form-group .mail{
+    margin-top: 20px;
+}
+.contact-us .contact-btn{
+    background-color: #ff0150;
+    color: white;
+    width: 30%;
+}
+.contact-us .form-card{
+    box-shadow: 2px 3px 4px grey;
+}
+
+
+.footer-text .fa-heart{
+    color: #ff0150;
+}
+.footer-text p>a{
+    color: #ff0150;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+/* ........................ Media .................. */
+@media (max-width:360px){
+    .back-img{
+        min-height: 20vh;
+        max-width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .back-img .heading{
+        padding-top: 230px;
+        letter-spacing: 5px;
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .back-img .para{
+        color: white;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+ /* .................... ABOUT US......................  */
+    .abt-text .title-heading span{
+        color: 	#ff0150;
+    }
+    .abt-text p{
+        margin-top: 20px;
+    }   
+}
+
+
+@media (max-width:470px){
+    .back-img{
+        min-height: 20vh;
+        max-width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .back-img .heading{
+        padding-top: 230px;
+        letter-spacing: 5px;
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .back-img .para{
+        color: white;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+     /* .................... ABOUT US......................  */
+     .abt-text .title-heading span{
+        color: 	#ff0150;
+    }
+    .abt-text p{
+        margin-top: 20px;
+    }   
+}
+
+@media (min-width:768px){
+    .back-img{
+        max-height: 80vh;
+        max-width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .back-img .heading{
+        padding-top: 350px;
+        letter-spacing: 5px;
+        font-weight: 900;
+        font-size: 60px;
+    }
+    .Testimonials .card-deck .card .test-img{
+        margin-left: 35%;
+    }
+    .Testimonials .card-deck .card {
+        box-shadow: 2px 3px 4px white;
+    }
+}
